@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(img/S5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.contact-box{
+       position: absolute;
+       top 50%;
+       left: 50%;
+       width: 400px;
+       box-sizing: border-box;
+       transform: translate(-50%,14%);
+       background: rgba(0,0,0,0.5);
+       text-align: center;
+      }
+ .contact-box h1 { font-size: 30;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px o;
+    color:white;
+
+      }
+      .contact-box p{
+          font-size: 16 ;
+          margin: 6px 14px ;
+          font-weight: 600;
+          text-transform: uppercase;
+          color: white;
+          text-align: left;
+      }
+
+      .contact-box input{
+          font-size: 16px;
+          padding: 8px 88px;
+          width : 100%:
+          border: 0;
+          
+          border-radius:5px;
+          outline: none;
+          background: transparent;
+          color: white;
+          
+          }
+          .inputbox{
+              font-size: 16px;
+          padding: 0px 43px;
+          width : 100%:
+          border: 0;
+          border-radius:15px;
+          outline: none;
+          background: transparent;
+          color: white
+          }
+ .contact-box button{font-size: 20px;
+    font-weight: bold;
+    margin: 24px 0;
+    text-transform: uppercase;
+    width: 30%;
+    border: 0;
+    border-radius: 9px;
+    
+    background:#1c8adb;
+    color: white;
+ }
+ .contact-box button:hover{
+     color: rgb(132, 241, 69);
+ }
+
+ 
